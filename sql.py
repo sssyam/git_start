@@ -11,7 +11,7 @@ connect = sql.connect(
 
 id = sys.argv[1]
 name = sys.argv[2]
-string = "insert into account values(%s,'%s')" %(id, name)
+string = "insert into account values(%s,'%s')" %(id,name)
 print(string)
 
 cursor = connect.cursor()
